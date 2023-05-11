@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Krankenversichertennummer Generator</title>
+  <script>
+    function generateRandomNumber() {
+      var randomNumber = Math.floor(Math.random() * 100) + 1;
+      document.getElementById("output").innerHTML = "Your random number is: " + randomNumber;
+    }
+  </script>
+</head>
+<body>
+<h1>Random Krankenversichertennummer Generator</h1>
+<p>Click the button below to generate a random Krankenversichertennummer:</p>
+<button onclick="generateRandomNumber()">Generate</button>
+<p id="output"></p>
+</body>
+</html>
